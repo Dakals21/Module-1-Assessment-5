@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Samsung Galaxy S25 Ultra | Dakalo Ecommerce</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #1428A0;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        .product-container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            padding: 35px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #1428A0;
+            font-size: 32px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 25px 0;
+        }
+
+        .gallery img {
+            width: 30%;
+            min-width: 200px;
+            height: 250px;
+            object-fit: contain;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1428A0;
+        }
+
+        .stock {
+            color: green;
+            font-weight: bold;
+        }
+
+        .description {
+            line-height: 1.7;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #1428A0;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .buy-button {
+            display: inline-block;
+            margin-top: 30px;
+            background-color: #1428A0;
+            color: white;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background-color: #0c1b75;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dakalo Ecommerce Store</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact Us</a>
+    </nav>
+</header>
+
+<main class="product-container">
+
+    <h2>Samsung Galaxy A56</h2>
+
+    <div class="gallery">
+        <img src="A56%20front.jfif"
+             alt="Samsung Galaxy A56 front">
+
+        <img src="A56%20side.jfif"
+             alt="Samsung Galaxy A56 side">
+
+        <img src="A56%20back.jfif"
+             alt="Samsung Galaxy A56 back">
+    </div>
+
+    <p class="price">R7,999</p>
+
+    <p class="stock">
+        In Stock: 26 items
+    </p>
+
+    <p class="description">
+        The Samsung Galaxy A56 is an affordable smartphone offering
+        a large AMOLED display, reliable performance, generous storage
+        and a high-capacity battery. It is an excellent choice for
+        everyday smartphone users.
+    </p>
+
+    <h3>Product Information</h3>
+
+    <table>
+        <tr>
+            <th>Specification</th>
+            <th>Details</th>
+        </tr>
+
+        <tr>
+            <td>Brand</td>
+            <td>Samsung</td>
+        </tr>
+
+        <tr>
+            <td>Model</td>
+            <td>Galaxy A56</td>
+        </tr>
+
+        <tr>
+            <td>Display</td>
+            <td>6.7-inch AMOLED</td>
+        </tr>
+
+        <tr>
+            <td>Storage</td>
+            <td>128 GB</td>
+        </tr>
+
+        <tr>
+            <td>RAM</td>
+            <td>8 GB</td>
+        </tr>
+
+        <tr>
+            <td>Battery</td>
+            <td>5000 mAh</td>
+        </tr>
+
+        <tr>
+            <td>Weight</td>
+            <td>218 g</td>
+        </tr>
+
+        <tr>
+            <td>Dimensions</td>
+            <td>162.2 × 77.5 × 7.4 mm</td>
+        </tr>
+
+        <tr>
+            <td>Barcode</td>
+            <td>8806097000003</td>
+        </tr>
+
+        <tr>
+            <td>Operating System</td>
+            <td>Android</td>
+        </tr>
+    </table>
+
+    <button class="buy-button" onclick="buyProduct()">
+        Buy Now
+    </button>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Dakalo Ecommerce Store. All Rights Reserved.</p>
+</footer>
+
+<script>
+    function buyProduct() {
+        alert("Thank you for shopping with Dakalo Ecommerce Store!");
+    }
+</script>
+
+</body>
+</html>
